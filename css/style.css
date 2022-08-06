@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+body{
+    font-family: 'Open Sans' , cursive !important;
+    overflow-x: hidden;
+}
+.button{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+    background: #F7859C;
+    border-radius: 12px;
+    border: 3px solid #F7859C;
+}
+.button:hover{
+    text-decoration: none;
+    color: #F7859C;
+    background: none;
+    border: 3px solid #F7859C;
+    transition: all .3s ease;
+
+}
+.subtitle{
+    font-size: 18px;
+    color: #404756;
+}
+.title{
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Montserrat', cursive;
+    color: #222222;
+    margin-bottom: 80px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background: #40475699;
+}
+.main-block-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #222;
+    font-family: 'Montserrat', cursive;
+}
+
+
+
+nav{
+    padding: 60px 0;
+}
+.nav__links{
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.nav__links:hover{
+    color: #222222;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #000;
+    transition: padding-bottom .3s ease;
+}
+
+
+header{
+    background: url('../img/headerBack.png') no-repeat;
+    background-size: 70% !important;
+    background-position: center;
+    padding: 200px;
+    
+}
+.upTitle{
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+}
+.header__title{
+    font-size: 97px;
+    font-weight: 700;
+    color: #222222;
+    font-family: 'Montserrat', cursive;
+}
+.header__subtitle{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+
+.collection__title{
+    font-size: 24px;
+    font-family: 'Montserrat', cursive;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 16px;
+}
+.collection__line{
+    margin-top: 32px;
+    margin-bottom: 28px;
+}
+.content__type{
+    font-size: 18px;
+    color: #222;
+    font-family: 'Montserrat', cursive;
+    font-weight: 700;
+}
+.content__type-img{
+    margin: 32px 0px 28px 30px;
+
+}
+.content__line{
+    margin-bottom: 60px;
+}
+.content__nft-img{
+    margin-bottom: 60px;
+}
+.content{
+    background: #FBF1E6;
+}
+
+
+
+.roadmap{
+    margin: 80px 0;
+}
+.roadmap__block{
+    width: 330px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 60px;
+}
+.roadmap__block-wrap{
+    background: url('../img/roadmapBack.png') no-repeat;
+    background-size: 70%;
+    background-position: center;
+    padding: 150px 0;
+}
+
+
+
+.team__upTitle{
+    margin-top: 24px;
+}
+.team__avatar{
+    margin-top: 60px;
+}
+.team{
+    background: #FDDBE2;
+}
+
+
+
+.footer__head-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__title{
+    margin-bottom: 24px !important;
+}
+footer{
+    background: #D3D4ED;
+    padding: 30px 0px 0px 0px;
+}
+.footer__links{
+    color: #404756;
+    font-size: 18px;
+    margin-right: 40px;
+    padding: 0px 0;
+}
+.footer__links-wrap{
+    margin: 10px 0;
+}
+.footer__subtitle{
+    margin-top: 13px;
+}
+
+
+
+.faq{
+    margin: 120px 0;
+}
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 30px 0;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 21px;
+    transition: 0.4s;
+    border: none;
+    border-top: 1px solid #000;
+}
+
+.active, .accordion:hover {
+    background-color: #fff;
+}
+.active, .accordion:focus{
+    outline: none;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
